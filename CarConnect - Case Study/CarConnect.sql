@@ -84,3 +84,6 @@ INSERT INTO Reservation (CustomerID, VehicleID, StartDate, EndDate, TotalCost, S
 (8, 9, '2025-03-24 06:00:00', '2025-03-26 06:00:00', 6000.00, 'confirmed'),
 (9, 8, '2025-03-19 10:00:00', '2025-03-22 10:00:00', 6300.00, 'completed'),
 (10, 10, '2025-03-25 11:00:00', '2025-03-27 11:00:00', 5000.00, 'pending');
+
+INSERT INTO Admin (FirstName, LastName, Email, PhoneNumber, Username, Password, Role) VALUES
+('Nikhil', 'Singh', 'nikhil.singh@gmail.com', '9999999999', 'admin1', 'admin1', 'super admin');
