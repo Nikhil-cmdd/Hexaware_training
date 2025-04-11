@@ -8,6 +8,4 @@ public interface ICustomerService {
     boolean registerCustomer(Customer customer);
     boolean updateCustomer(Customer customer);
     boolean deleteCustomer(int customerId);
-    boolean addCustomer(Customer customer);
-    
 }
