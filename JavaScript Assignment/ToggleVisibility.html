@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="myDiv">Hello, I am visible!</div>
+<button onclick="toggleDiv()">Toggle</button>
+
+<script>
+function toggleDiv() {
+    let div = document.getElementById("myDiv");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="text" id="userInput">
+<button onclick="displayText()">Display</button>
+<p id="output"></p>
+
+<script>
+function displayText() {
+    let input = document.getElementById("userInput").value;
+    document.getElementById("output").innerText = input;
+}
+</script>
+</body>
+</html>
