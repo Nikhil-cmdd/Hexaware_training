@@ -11,3 +11,6 @@ This folder contains the coding challenge files.
 
 ### 3. TechShop - MySQL
 This folder contains both Java and SQL files for the TechShop project. Please note that the folder name was a mistake.
+
+### 4. JavaScript Assignment
+This folder contains the JavaScript assignments
